@@ -1,0 +1,55 @@
+#name{
+    margin: 0px;
+    text-align: center;
+    background: linear-gradient(45deg, pink, lavender );
+    color: cadetblue;
+}
+.sub{
+    background-color: cadetblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.sub a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.sub a:hover{
+    background: linear-gradient(45deg, pink, lavender );
+    color: cadetblue;
+    border-radius: 20px;
+}
+#maths{
+    margin-top: 20px;
+    /* margin-left: 40%; */
+}
+
+section{
+    margin-left: 20%;
+    /* border: 5px solid lightcoral; */
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 50px;
+}
+
+section h1{
+    color: darkslateblue;
+}
+section h3{
+    color: darkcyan;
+}
+
+table{
+    width: 700px;
+    border: 2px solid;
+    border-collapse: collapse;
+    /* height: 600px; */
+}
+table td{
+    border: 2px solid;
+}
+table th{
+    border: 2px solid;
+}
